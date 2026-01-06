@@ -1,0 +1,170 @@
+
+{
+  "metadata": {
+    "home": {
+      "title": "Anasayfa",
+      "description": "Mentack Diş Kliniği'ne hoş geldiniz. İstanbul'un kalbinde hasta odaklı, premium diş bakımı."
+    },
+    "treatments": {
+      "title": "Tedavilerimiz",
+      "description": "İmplant ve ortodontiden estetik diş hekimliğine kadar geniş tedavi yelpazemizi keşfedin."
+    },
+    "treatment_detail": {
+      "title": "{treatmentName} | Mentack Dental",
+      "description": "{treatmentName} tedavimiz hakkında süreç, faydalar ve sonrası dahil daha fazla bilgi edinin."
+    },
+    "doctors": {
+      "title": "Uzman Hekimlerimiz",
+      "description": "Deneyimli ve kendini işine adamış diş hekimliği profesyonellerinden oluşan ekibimizle tanışın."
+    },
+    "about": {
+      "title": "Hakkımızda",
+      "description": "Mentack Diş Kliniği'nin misyonu, değerleri ve son teknoloji tesisleri hakkında bilgi edinin."
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "description": "Diş tedavilerimiz, randevular ve prosedürler hakkındaki yaygın soruların yanıtlarını bulun."
+    },
+    "contact": {
+      "title": "İletişim & Randevu",
+      "description": "Randevu almak veya soru sormak için bizimle iletişime geçin. Gülümsemenize yardımcı olmak için buradayız."
+    }
+  },
+  "navigation": {
+    "home": "Anasayfa",
+    "treatments": "Tedaviler",
+    "doctors": "Hekimler",
+    "about": "Hakkımızda",
+    "faq": "SSS",
+    "contact": "İletişim",
+    "bookAppointment": "Randevu Al"
+  },
+  "home_page": {
+    "hero": {
+      "heading": "Modern Diş Hekimliği, Kalıcı Gülüşler.",
+      "subheading": "Sakin, son teknoloji bir ortamda olağanüstü diş bakımını deneyimleyin. Sağlığınız ve konforunuz önceliğimizdir.",
+      "primary_cta": "Randevu Alın",
+      "secondary_cta": "Tedavileri Görüntüle"
+    },
+    "trust_badges": [
+      { "title": "Steril Ortam", "icon": "shield" },
+      { "title": "Modern Teknoloji", "icon": "cpu" },
+      { "title": "Hasta Odaklı Bakım", "icon": "heart" }
+    ],
+    "treatments_section": {
+      "heading": "Hizmetlerimiz",
+      "subheading": "Sağlıklı, güzel bir gülümseme için kapsamlı bakım."
+    },
+    "why_us_section": {
+      "heading": "Neden Mentack?",
+      "subheading": "Uzmanlığı kişisel bir dokunuşla birleştiriyoruz.",
+      "points": [
+        { "title": "Uzman Ekip", "description": "Diş hekimlerimiz mükemmelliğe adanmış, yüksek vasıflı profesyonellerdir." },
+        { "title": "İleri Teknoloji", "description": "Hassas ve konforlu tedaviler için en son ekipmanları kullanıyoruz." },
+        { "title": "Şeffaf İletişim", "description": "İhtiyaçlarınızı dinliyor ve tüm seçeneklerinizi net bir şekilde açıklıyoruz." },
+        { "title": "Üst Düzey Konfor", "description": "Kliniğimiz kendinizi rahat ve huzurlu hissetmeniz için tasarlanmıştır." }
+      ]
+    },
+    "doctors_section": {
+      "heading": "Hekimlerimizle Tanışın",
+      "subheading": "Gülüşünüzün arkasındaki deneyimli eller."
+    },
+    "testimonials_section": {
+      "heading": "Hastalarımız Ne Diyor",
+      "subheading": "Güveniniz en büyük başarımızdır."
+    },
+    "cta_band": {
+      "heading": "Gülüşünüzü Dönüştürmeye Hazır mısınız?",
+      "subheading": "Mükemmel diş sağlığına giden yolculuğunuza bugün başlayalım.",
+      "cta": "Danışmanlık Randevusu Alın"
+    }
+  },
+  "treatments_page": {
+    "heading": "Diş Tedavileri",
+    "subheading": "Tüm ihtiyaçlarınızı karşılamak için tam bir diş hizmetleri yelpazesi sunuyoruz. Önleyici bakımdan karmaşık restorasyonlara kadar, ekibimiz ağız sağlığınızı sağlamak için burada."
+  },
+  "treatment_detail_page": {
+    "what_it_is": "Nedir?",
+    "who_it_is_for": "Kimler İçin Uygundur?",
+    "how_it_works": "Nasıl Uygulanır?",
+    "aftercare": "Tedavi Sonrası Bakım",
+    "what_to_expect": "Sizi Neler Bekliyor?",
+    "cta_button": "Kişiselleştirilmiş Plan Talep Edin",
+    "back_link": "Tüm Tedaviler"
+  },
+  "doctors_page": {
+    "heading": "Uzman Ekibimiz",
+    "subheading": "Kendini işine adamış diş hekimlerimiz, yılların deneyimini nazik ve etkili bakım sağlama tutkusuyla birleştiriyor. Gülüşünüzü yaratacak profesyonelleri tanıyın.",
+    "book_with_doctor": "Bu Hekimden Randevu Al",
+    "our_approach_section": {
+      "heading": "Bakım Anlayışımız",
+      "points": [
+        { "title": "Tavizsiz Hijyen", "description": "Güvenliğinizi sağlamak için en katı sterilizasyon protokollerine uyuyoruz." },
+        { "title": "Hasta Konforu", "description": "Bekleme odamızdan dişçi koltuğuna kadar konforunuz her şeyden önemlidir." }
+      ]
+    }
+  },
+  "about_page": {
+    "heading": "Mentack Dental'e Hoş Geldiniz",
+    "subheading": "Misyonumuz, birinci sınıf diş bakımını insani bir dokunuşla sunmaktır.",
+    "story_section": {
+      "heading": "Hikayemiz",
+      "content": "Dürüstlük, yenilikçilik ve hasta merkezli bakım ilkeleri üzerine kurulan Mentack Diş Kliniği, diş hekimliğinde yeni bir standart yaratmak için kurulmuştur. Diş hekimine gitmenin olumlu ve stressiz bir deneyim olması gerektiğine inanıyoruz."
+    },
+    "facilities_section": {
+      "heading": "Tesisler ve Teknoloji",
+      "cards": [
+        { "title": "Dijital Teşhis", "description": "Hassas planlama için gelişmiş 3D görüntüleme ve dijital röntgenler." },
+        { "title": "Konfor Odaklı Odalar", "description": "Her tedavi odası konforunuz ve rahatlamanız için donatılmıştır." },
+        { "title": "İleri Düzey Sterilizasyon", "description": "Tam güvenliğiniz için hastane düzeyinde sterilizasyon." }
+      ]
+    },
+    "values_section": {
+      "heading": "Temel Değerlerimiz",
+      "cards": [
+        { "title": "Şeffaflık", "description": "Açık iletişim ve dürüst tavsiye." },
+        { "title": "Mükemmellik", "description": "Sürekli olarak en iyi klinik sonuçlar için çabalamak." },
+        { "title": "Merhamet", "description": "Her hastaya empati ve saygıyla davranmak." }
+      ]
+    }
+  },
+  "faq_page": {
+    "heading": "Sıkça Sorulan Sorular",
+    "subheading": "Sorularınız mı var? Cevaplarımız var. İşte aldığımız en yaygın sorulardan bazıları."
+  },
+  "contact_page": {
+    "heading": "Bize Ulaşın",
+    "subheading": "Yardım etmek için buradayız. Randevunuzu alın veya aşağıdan bize bir mesaj gönderin.",
+    "form": {
+      "full_name": "Ad Soyad",
+      "phone": "Telefon Numarası",
+      "email": "E-posta Adresi",
+      "preferred_treatment": "Tercih Edilen Tedavi",
+      "select_treatment": "Bir tedavi seçin...",
+      "preferred_date": "Tercih Edilen Tarih (İsteğe Bağlı)",
+      "message": "Mesajınız",
+      "submit_button": "İsteği Gönder",
+      "success_title": "İstek Gönderildi!",
+      "success_description": "Bizimle iletişime geçtiğiniz için teşekkür ederiz. Randevunuzu onaylamak için kısa süre içinde sizinle iletişime geçeceğiz.",
+      "error_title": "Gönderim Başarısız",
+      "error_description": "Bir şeyler ters gitti. Lütfen tekrar deneyin veya bizi doğrudan arayın."
+    },
+    "details": {
+      "address": "Adres",
+      "phone": "Telefon",
+      "hours": "Çalışma Saatleri",
+      "emergency": "Acil durumlar için randevu alın"
+    }
+  },
+  "footer": {
+    "quick_links": "Hızlı Bağlantılar",
+    "contact_us": "Bize Ulaşın",
+    "copyright": "© {year} Mentack Diş Kliniği. Tüm hakları saklıdır.",
+    "social_media": "Bizi Takip Edin"
+  },
+  "common": {
+    "view_details": "Detayları Gör",
+    "call_now": "Şimdi Ara",
+    "whatsapp_chat": "WhatsApp'tan Yaz"
+  }
+}

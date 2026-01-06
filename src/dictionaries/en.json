@@ -1,0 +1,170 @@
+
+{
+  "metadata": {
+    "home": {
+      "title": "Home",
+      "description": "Welcome to Mentack Dental Clinic. Premium, patient-focused dental care in the heart of Istanbul."
+    },
+    "treatments": {
+      "title": "Our Treatments",
+      "description": "Explore our wide range of dental treatments, from implants and orthodontics to cosmetic dentistry."
+    },
+    "treatment_detail": {
+      "title": "{treatmentName} | Mentack Dental",
+      "description": "Learn more about our {treatmentName} treatment, including the process, benefits, and aftercare."
+    },
+    "doctors": {
+      "title": "Our Expert Doctors",
+      "description": "Meet our team of experienced and dedicated dental professionals."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Learn about Mentack Dental Clinic's mission, values, and our state-of-the-art facilities."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Find answers to common questions about our dental treatments, appointments, and procedures."
+    },
+    "contact": {
+      "title": "Contact & Appointments",
+      "description": "Get in touch with us to book your appointment or ask any questions. We're here to help you smile."
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "treatments": "Treatments",
+    "doctors": "Doctors",
+    "about": "About Us",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "bookAppointment": "Book Appointment"
+  },
+  "home_page": {
+    "hero": {
+      "heading": "Modern Dentistry, Lasting Smiles.",
+      "subheading": "Experience exceptional dental care in a calm, state-of-the-art environment. Your health and comfort are our priority.",
+      "primary_cta": "Book an Appointment",
+      "secondary_cta": "View Treatments"
+    },
+    "trust_badges": [
+      { "title": "Sterile Environment", "icon": "shield" },
+      { "title": "Modern Technology", "icon": "cpu" },
+      { "title": "Patient-Focused Care", "icon": "heart" }
+    ],
+    "treatments_section": {
+      "heading": "Our Services",
+      "subheading": "Comprehensive care for a healthy, beautiful smile."
+    },
+    "why_us_section": {
+      "heading": "Why Choose Mentack?",
+      "subheading": "We combine expertise with a personal touch.",
+      "points": [
+        { "title": "Expert Team", "description": "Our dentists are highly skilled professionals dedicated to excellence." },
+        { "title": "Advanced Technology", "description": "We use the latest equipment for precise and comfortable treatments." },
+        { "title": "Transparent Communication", "description": "We listen to your needs and explain all your options clearly." },
+        { "title": "Ultimate Comfort", "description": "Our clinic is designed to make you feel relaxed and at ease." }
+      ]
+    },
+    "doctors_section": {
+      "heading": "Meet Our Doctors",
+      "subheading": "The experienced hands behind your smile."
+    },
+    "testimonials_section": {
+      "heading": "What Our Patients Say",
+      "subheading": "Your trust is our greatest achievement."
+    },
+    "cta_band": {
+      "heading": "Ready to Transform Your Smile?",
+      "subheading": "Let's start your journey to perfect dental health today.",
+      "cta": "Book Your Consultation"
+    }
+  },
+  "treatments_page": {
+    "heading": "Dental Treatments",
+    "subheading": "We offer a full spectrum of dental services to meet all your needs. From preventative care to complex restorations, our team is here to ensure your oral health."
+  },
+  "treatment_detail_page": {
+    "what_it_is": "What It Is",
+    "who_it_is_for": "Who It's For",
+    "how_it_works": "How It Works",
+    "aftercare": "Aftercare",
+    "what_to_expect": "What to Expect",
+    "cta_button": "Request a Personalized Plan",
+    "back_link": "All Treatments"
+  },
+  "doctors_page": {
+    "heading": "Our Expert Team",
+    "subheading": "Our dedicated dentists combine years of experience with a passion for providing gentle, effective care. Get to know the professionals who will be crafting your smile.",
+    "book_with_doctor": "Book with This Doctor",
+    "our_approach_section": {
+      "heading": "Our Approach to Care",
+      "points": [
+        { "title": "Uncompromising Hygiene", "description": "We adhere to the strictest sterilization protocols to ensure your safety." },
+        { "title": "Patient Comfort", "description": "From our waiting room to the dental chair, your comfort is paramount." }
+      ]
+    }
+  },
+  "about_page": {
+    "heading": "Welcome to Mentack Dental",
+    "subheading": "Our mission is to deliver world-class dental care with a human touch.",
+    "story_section": {
+      "heading": "Our Story",
+      "content": "Founded on the principles of integrity, innovation, and patient-centric care, Mentack Dental Clinic was established to create a new standard in dentistry. We believe that a visit to the dentist should be a positive and stress-free experience."
+    },
+    "facilities_section": {
+      "heading": "Facilities & Technology",
+      "cards": [
+        { "title": "Digital Diagnostics", "description": "Advanced 3D imaging and digital X-rays for precise planning." },
+        { "title": "Comfort-Designed Rooms", "description": "Each treatment room is equipped for your comfort and relaxation." },
+        { "title": "Advanced Sterilization", "description": "Hospital-grade sterilization for your complete safety." }
+      ]
+    },
+    "values_section": {
+      "heading": "Our Core Values",
+      "cards": [
+        { "title": "Transparency", "description": "Clear communication and honest advice." },
+        { "title": "Excellence", "description": "Constantly striving for the best clinical outcomes." },
+        { "title": "Compassion", "description": "Treating every patient with empathy and respect." }
+      ]
+    }
+  },
+  "faq_page": {
+    "heading": "Frequently Asked Questions",
+    "subheading": "Have questions? We have answers. Here are some of the most common inquiries we receive."
+  },
+  "contact_page": {
+    "heading": "Get in Touch",
+    "subheading": "We're here to help. Book your appointment or send us a message below.",
+    "form": {
+      "full_name": "Full Name",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "preferred_treatment": "Preferred Treatment",
+      "select_treatment": "Select a treatment...",
+      "preferred_date": "Preferred Date (Optional)",
+      "message": "Your Message",
+      "submit_button": "Send Request",
+      "success_title": "Request Sent!",
+      "success_description": "Thank you for reaching out. We will contact you shortly to confirm your appointment.",
+      "error_title": "Submission Failed",
+      "error_description": "Something went wrong. Please try again or call us directly."
+    },
+    "details": {
+      "address": "Address",
+      "phone": "Phone",
+      "hours": "Working Hours",
+      "emergency": "Emergency by appointment"
+    }
+  },
+  "footer": {
+    "quick_links": "Quick Links",
+    "contact_us": "Contact Us",
+    "copyright": "© {year} Mentack Dental Clinic. All rights reserved.",
+    "social_media": "Follow Us"
+  },
+  "common": {
+    "view_details": "View Details",
+    "call_now": "Call Now",
+    "whatsapp_chat": "Chat on WhatsApp"
+  }
+}

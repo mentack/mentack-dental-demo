@@ -1,3 +1,142 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-home",
+      "description": "Bright and modern dental clinic reception area",
+      "imageUrl": "https://images.unsplash.com/photo-1631507623112-0092cef9c70d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjbGluaWMlMjByZWNlcHRpb258ZW58MHx8fHwxNzY3NjMxODcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clinic reception"
+    },
+    {
+      "id": "hero-treatments",
+      "description": "Close-up of modern and clean dental equipment",
+      "imageUrl": "https://images.unsplash.com/photo-1626878880028-0438b1403b3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkZW50YWwlMjBlcXVpcG1lbnR8ZW58MHx8fHwxNzY3NjIwMjUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dental equipment"
+    },
+    {
+      "id": "hero-doctors",
+      "description": "A group of smiling professional dentists",
+      "imageUrl": "https://images.unsplash.com/photo-1683520701490-7172fa20c8f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkZW50aXN0JTIwdGVhbXxlbnwwfHx8fDE3Njc2MjAyNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dentist team"
+    },
+    {
+      "id": "hero-about",
+      "description": "A comfortable and empty patient chair in a modern clinic room",
+      "imageUrl": "https://images.unsplash.com/photo-1576671081741-c538eafccfff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjbGluaWMlMjByb29tfGVufDB8fHx8MTc2NzY3NzQxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clinic room"
+    },
+    {
+      "id": "hero-faq",
+      "description": "A person looking thoughtfully at a question mark sign",
+      "imageUrl": "https://images.unsplash.com/photo-1493612276216-ee3925520721?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uJTIwdGhpbmtpbmd8ZW58MHx8fHwxNzY3NzIyMTgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person thinking"
+    },
+    {
+      "id": "hero-contact",
+      "description": "A friendly receptionist smiling at the front desk",
+      "imageUrl": "https://images.unsplash.com/photo-1675186914580-94356f7c012c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyZWNlcHRpb25pc3QlMjBzbWlsaW5nfGVufDB8fHx8MTc2NzcyMjE4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "receptionist smiling"
+    },
+    {
+      "id": "doctor-1",
+      "description": "Professional portrait of Dr. Aida Tunç",
+      "imageUrl": "https://images.unsplash.com/photo-1610655507808-a59293f4e332?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NzY3NzY4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "doctor-2",
+      "description": "Professional portrait of Dr. Barış Özer",
+      "imageUrl": "https://images.unsplash.com/photo-1624395213043-fa2e123b2656?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3Njc2ODE4NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "doctor-3",
+      "description": "Professional portrait of Dr. Elif Kaya",
+      "imageUrl": "https://images.unsplash.com/photo-1573496527892-904f897eb744?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3Njc3MDU2ODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman professional"
+    },
+    {
+      "id": "treatment-implant",
+      "description": "Image illustrating dental implants",
+      "imageUrl": "https://images.unsplash.com/photo-1609918438269-9a4c5f8fe3a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkZW50YWwlMjBpbXBsYW50fGVufDB8fHx8MTc2NzcyMjE4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dental implant"
+    },
+    {
+      "id": "treatment-whitening",
+      "description": "Image showing teeth whitening procedure",
+      "imageUrl": "https://images.unsplash.com/photo-1664529845836-433c172142ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0ZWV0aCUyMHdoaXRlbmluZ3xlbnwwfHx8fDE3Njc2MjkzMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teeth whitening"
+    },
+    {
+      "id": "treatment-orthodontics",
+      "description": "Image showing orthodontic braces",
+      "imageUrl": "https://images.unsplash.com/photo-1584434081454-2a898b8e33d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkZW50YWwlMjBicmFjZXN8ZW58MHx8fHwxNzY3NjI5MzAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dental braces"
+    },
+    {
+      "id": "treatment-cosmetic",
+      "description": "Image of a perfect smile for cosmetic dentistry",
+      "imageUrl": "https://images.unsplash.com/photo-1639479965482-dfa2aa225adb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXJmZWN0JTIwc21pbGV8ZW58MHx8fHwxNzY3NjIwMjUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "perfect smile"
+    },
+    {
+      "id": "treatment-pediatric",
+      "description": "A child smiling at the dentist",
+      "imageUrl": "https://images.unsplash.com/photo-1565090567208-c8038cfcf6cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZCUyMGRlbnRpc3R8ZW58MHx8fHwxNzY3NzIyMTgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child dentist"
+    },
+    {
+      "id": "treatment-rootcanal",
+      "description": "Illustration of a root canal treatment",
+      "imageUrl": "https://images.unsplash.com/photo-1643660526741-094639fbe53a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyb290JTIwY2FuYWx8ZW58MHx8fHwxNzY3NzIyMTgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "root canal"
+    },
+    {
+      "id": "facility-tech",
+      "description": "Advanced dental technology like a 3D scanner",
+      "imageUrl": "https://images.unsplash.com/photo-1646215279503-7dd99848a8ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHwzZCUyMHNjYW5uZXJ8ZW58MHx8fHwxNzY3NzIyMTgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "3d scanner"
+    },
+    {
+      "id": "facility-comfort",
+      "description": "Comfortable patient lounge area",
+      "imageUrl": "https://images.unsplash.com/photo-1700727448566-616217027631?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsb3VuZ2UlMjBhcmVhfGVufDB8fHx8MTc2NzY1MDA4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lounge area"
+    },
+    {
+      "id": "facility-sterilization",
+      "description": "State-of-the-art sterilization equipment",
+      "imageUrl": "https://images.unsplash.com/photo-1766325693394-138c599bd739?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdGVyaWxpemF0aW9uJTIwZXF1aXBtZW50fGVufDB8fHx8MTc2NzcyMjE4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sterilization equipment"
+    },
+    {
+      "id": "why-us-background",
+      "description": "A dentist using a modern dental tool.",
+      "imageUrl": "https://images.unsplash.com/photo-1682340029996-29ba47873bb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkZW50aXN0JTIwd29ya2luZ3xlbnwwfHx8fDE3Njc3MjIxODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dentist working"
+    },
+    {
+      "id": "contact-map",
+      "description": "Placeholder image for a map showing clinic location in Nisantasi, Istanbul",
+      "imageUrl": "https://images.unsplash.com/photo-1603466183710-70b84997a93f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaXR5JTIwbWFwfGVufDB8fHx8MTc2NzYyMzM3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city map"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Portrait of a happy patient",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzb24lMjBzbWlsaW5nfGVufDB8fHx8MTc2NzcwNTAyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person smiling"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Portrait of another happy patient",
+      "imageUrl": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXJzb24lMjBoYXBweXxlbnwwfHx8fDE3Njc2MTAyNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person happy"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Portrait of a third happy patient",
+      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzY3NjI4NTI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    }
+  ]
 }
