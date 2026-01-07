@@ -8,7 +8,7 @@ import type { Locale } from '@/i18n.config'
 import { getDictionary } from '@/lib/get-dictionary'
 import { treatments, doctors, testimonials } from '@/lib/data'
 import { PlaceHolderImages } from '@/lib/placeholder-images'
-import clinicBanner from '@/../public/clinicbanner.png'
+import clinicBanner from '../../../public/clinicbanner.png'
 
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
