@@ -6,11 +6,12 @@ import type { Locale } from '@/i18n.config'
 
 export default async function LangLayout({
   children,
-  params: { lang },
+  params,
 }: {
   children: React.ReactNode
-  params: { lang: Locale }
+  params: Promise<{ lang: Locale }>
 }) {
+  const { lang } = await params
   const dictionary = await getDictionary(lang)
 
   return (

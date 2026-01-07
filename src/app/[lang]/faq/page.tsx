@@ -12,10 +12,11 @@ import {
 } from '@/components/ui/accordion'
 
 export async function generateMetadata({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Locale }
+  params: Promise<{ lang: Locale }>
 }): Promise<Metadata> {
+  const { lang } = await params
   const dictionary = await getDictionary(lang)
   return {
     title: dictionary.metadata.faq.title,
@@ -24,10 +25,11 @@ export async function generateMetadata({
 }
 
 export default async function FaqPage({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Locale }
+  params: Promise<{ lang: Locale }>
 }) {
+  const { lang } = await params
   const dictionary = await getDictionary(lang)
   const pageDict = dictionary.faq_page
 

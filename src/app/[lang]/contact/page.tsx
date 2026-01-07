@@ -12,10 +12,11 @@ import { AppointmentForm } from '@/components/appointment-form'
 import { Button } from '@/components/ui/button'
 
 export async function generateMetadata({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Locale }
+  params: Promise<{ lang: Locale }>
 }): Promise<Metadata> {
+  const { lang } = await params
   const dictionary = await getDictionary(lang)
   return {
     title: dictionary.metadata.contact.title,
@@ -27,10 +28,11 @@ const getImage = (id: string) =>
   PlaceHolderImages.find(img => img.id === id)
 
 export default async function ContactPage({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Locale }
+  params: Promise<{ lang: Locale }>
 }) {
+  const { lang } = await params
   const dictionary = await getDictionary(lang)
   const pageDict = dictionary.contact_page
   const commonDict = dictionary.common

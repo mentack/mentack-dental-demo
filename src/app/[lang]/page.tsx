@@ -8,6 +8,7 @@ import type { Locale } from '@/i18n.config'
 import { getDictionary } from '@/lib/get-dictionary'
 import { treatments, doctors, testimonials } from '@/lib/data'
 import { PlaceHolderImages } from '@/lib/placeholder-images'
+import clinicBanner from '@/../public/clinicbanner.png'
 
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
@@ -15,10 +16,11 @@ import { Icons, IconKey } from '@/components/icons'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 
 export async function generateMetadata({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Locale }
+  params: Promise<{ lang: Locale }>
 }): Promise<Metadata> {
+  const { lang } = await params
   const dictionary = await getDictionary(lang)
   return {
     title: dictionary.metadata.home.title,
@@ -30,15 +32,14 @@ const getImage = (id: string) =>
   PlaceHolderImages.find(img => img.id === id)
 
 export default async function HomePage({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Locale }
+  params: Promise<{ lang: Locale }>
 }) {
+  const { lang } = await params
   const dictionary = await getDictionary(lang)
   const homeDict = dictionary.home_page
   const commonDict = dictionary.common
-
-  const heroImage = getImage('hero-home')
 
   const TrustBadge = ({ title, icon }: { title: string; icon: IconKey }) => {
     const Icon = Icons[icon]
@@ -54,30 +55,27 @@ export default async function HomePage({
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="relative h-[80vh] min-h-[600px] w-full">
-        {heroImage && (
-          <Image
-            src={heroImage.imageUrl}
-            alt={heroImage.description}
-            fill
-            className="object-cover"
-            priority
-            data-ai-hint={heroImage.imageHint}
-          />
-        )}
-        <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/20 to-transparent" />
-        <div className="container relative flex h-full flex-col items-start justify-end pb-24 text-left">
+        <Image
+          src={clinicBanner}
+          alt="Clinic banner"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
+        <div className="container relative flex h-full flex-col items-start justify-end pb-24 text-left text-white">
           <div className="max-w-3xl">
-            <h1 className="text-4xl font-bold md:text-6xl text-foreground">
+            <h1 className="text-4xl font-bold md:text-6xl">
               {homeDict.hero.heading}
             </h1>
-            <p className="mt-4 max-w-xl text-lg text-foreground/80">
+            <p className="mt-4 max-w-xl text-lg text-white/80">
               {homeDict.hero.subheading}
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild>
                 <Link href={`/${lang}/contact`}>{homeDict.hero.primary_cta}</Link>
               </Button>
-              <Button size="lg" variant="outline" asChild>
+              <Button size="lg" variant="outline" className="text-black" asChild>
                 <Link href={`/${lang}/treatments`}>{homeDict.hero.secondary_cta}</Link>
               </Button>
             </div>

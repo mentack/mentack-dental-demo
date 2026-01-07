@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { CheckCircle } from 'lucide-react'
 
-import type { Locale } from '@/i18n.config'
+import { i18n, type Locale } from '@/i18n.config'
 import { getDictionary } from '@/lib/get-dictionary'
 import { treatments, type Treatment } from '@/lib/data'
 import { PlaceHolderImages } from '@/lib/placeholder-images'
@@ -17,19 +17,22 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion'
 
-type Props = {
-  params: { slug: string; lang: Locale }
-}
+type Params = { slug: string; lang: Locale }
+type Props = { params: Promise<Params> }
 
 export async function generateStaticParams() {
-  return treatments.map(treatment => ({
-    slug: treatment.slug,
-  }))
+  return i18n.locales.flatMap(lang =>
+    treatments.map(treatment => ({
+      slug: treatment.slug,
+      lang,
+    }))
+  )
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const treatment = treatments.find(t => t.slug === params.slug)
-  const dictionary = await getDictionary(params.lang)
+  const { slug, lang } = await params
+  const treatment = treatments.find(t => t.slug === slug)
+  const dictionary = await getDictionary(lang)
 
   if (!treatment) {
     return {}
@@ -37,12 +40,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = dictionary.metadata.treatment_detail.title.replace(
     '{treatmentName}',
-    treatment.title[params.lang]
+    treatment.title[lang]
   )
   const description =
     dictionary.metadata.treatment_detail.description.replace(
       '{treatmentName}',
-      treatment.title[params.lang]
+      treatment.title[lang]
     )
 
   return { title, description }
@@ -52,7 +55,7 @@ const getImage = (id: string) =>
   PlaceHolderImages.find(img => img.id === id)
 
 export default async function TreatmentDetailPage({ params }: Props) {
-  const { lang, slug } = params
+  const { lang, slug } = await params
   const treatment = treatments.find(
     t => t.slug === slug
   ) as Treatment | undefined
@@ -79,12 +82,12 @@ export default async function TreatmentDetailPage({ params }: Props) {
             data-ai-hint={heroImage.imageHint}
           />
         )}
-        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
         <div className="container relative text-white">
           <h1 className="text-4xl font-bold md:text-6xl">
             {treatment.title[lang]}
           </h1>
-          <p className="mt-4 max-w-2xl mx-auto text-lg opacity-90">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-white/80">
             {treatment.short[lang]}
           </p>
         </div>

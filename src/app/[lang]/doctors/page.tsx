@@ -14,10 +14,11 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Badge } from '@/components/ui/badge'
 
 export async function generateMetadata({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Locale }
+  params: Promise<{ lang: Locale }>
 }): Promise<Metadata> {
+  const { lang } = await params
   const dictionary = await getDictionary(lang)
   return {
     title: dictionary.metadata.doctors.title,
@@ -29,10 +30,11 @@ const getImage = (id: string) =>
   PlaceHolderImages.find(img => img.id === id)
 
 export default async function DoctorsPage({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Locale }
+  params: Promise<{ lang: Locale }>
 }) {
+  const { lang } = await params
   const dictionary = await getDictionary(lang)
   const pageDict = dictionary.doctors_page
   const heroImage = getImage('hero-doctors')
@@ -51,10 +53,10 @@ export default async function DoctorsPage({
             data-ai-hint={heroImage.imageHint}
           />
         )}
-        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
         <div className="container relative text-white">
           <h1 className="text-4xl font-bold md:text-6xl">{pageDict.heading}</h1>
-          <p className="mt-4 max-w-2xl mx-auto text-lg opacity-90">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-white/80">
             {pageDict.subheading}
           </p>
         </div>
